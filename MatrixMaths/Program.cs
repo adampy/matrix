@@ -8,11 +8,14 @@ namespace MatrixMaths
     {
         static void Main(string[] args)
         {
-            Matrix m = new Matrix(3, 3, new List<double> { 7, 9, 34, 2, 1, 7, 1, 0, 0 });
+            Matrix m = new Matrix(4, 4, new List<double> { 7, 6, 5, 15, 10, 9, 11, 16, 13, 4, 12, 0, 1, 3, 8, 2 });
             Console.WriteLine(Matrix.Determinant(m));
         }
     }
 
+    /// <summary>
+    /// Represents a matrix
+    /// </summary>
     class Matrix
     {
         public double[,] elements;
@@ -57,26 +60,39 @@ namespace MatrixMaths
             }*/
         }
 
+        /// <summary>
+        /// Finds the determinant of <paramref name="m"/> recursively.
+        /// </summary>
+        /// <param name="m">A square matrix</param>
+        /// <returns>Determinant for matrix <c>m</c></returns>
+        /// <exception cref="System.Exception">Thrown if the <paramref name="m"/> isn't square.</exception>
         public static double Determinant(Matrix m)
         {
             if (m.rows != m.columns)
             {
                 throw new Exception("A matrix must be square to have a determinant.");
             }
-            if (m.rows + m.columns == 2) // ==4 then hardcode Det(2x2 matrix)
+            if (m.rows + m.columns == 4) // ==4 then hardcode Det(2x2 matrix)
             {
-                return m.elements[0,0];
+                return (m.elements[0, 0] * m.elements[1, 1]) - (m.elements[1, 0] * m.elements[0, 1]);
             }
 
             double det = 0;
             for (int i = 0; i < m.columns; i++)
             {
-                det += Math.Pow(-1, i) * Matrix.Determinant(Matrix.SubMatrix(m, i));
+                det += Math.Pow(-1, i) * m.elements[0,i] * Matrix.Determinant(Matrix.SubMatrix(m, i));
             }
 
             return det;
         }
 
+        /// <summary>
+        /// Finds the sub-matrix/minor of <paramref name="m"/> at element with index <paramref name="i"/>.
+        /// Assumes that the row is 0
+        /// </summary>
+        /// <param name="m">A square matrix</param>
+        /// <param name="i">The column at which the minor is from. M[0, i] </param>
+        /// <returns></returns>
         public static Matrix SubMatrix(Matrix m, int i)
         {
             int c = i;

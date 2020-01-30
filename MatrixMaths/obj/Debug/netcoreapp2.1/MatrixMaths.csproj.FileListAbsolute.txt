@@ -9,3 +9,13 @@
 \\tsclient\S\,\CS Projects\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.AssemblyInfo.cs
 \\tsclient\S\,\CS Projects\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.dll
 \\tsclient\S\,\CS Projects\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.pdb
+C:\Users\Adam\Desktop\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.deps.json
+C:\Users\Adam\Desktop\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.runtimeconfig.json
+C:\Users\Adam\Desktop\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.runtimeconfig.dev.json
+C:\Users\Adam\Desktop\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.dll
+C:\Users\Adam\Desktop\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.pdb
+C:\Users\Adam\Desktop\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.csprojAssemblyReference.cache
+C:\Users\Adam\Desktop\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.AssemblyInfoInputs.cache
+C:\Users\Adam\Desktop\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.AssemblyInfo.cs
+C:\Users\Adam\Desktop\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.dll
+C:\Users\Adam\Desktop\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.pdb
