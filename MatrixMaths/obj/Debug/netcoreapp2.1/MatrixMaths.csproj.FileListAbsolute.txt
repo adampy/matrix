@@ -1,0 +1,11 @@
+\\tsclient\S\,\CS Projects\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.deps.json
+\\tsclient\S\,\CS Projects\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.runtimeconfig.json
+\\tsclient\S\,\CS Projects\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.runtimeconfig.dev.json
+\\tsclient\S\,\CS Projects\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.dll
+\\tsclient\S\,\CS Projects\MatrixMaths\bin\Debug\netcoreapp2.1\MatrixMaths.pdb
+\\tsclient\S\,\CS Projects\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.csprojAssemblyReference.cache
+\\tsclient\S\,\CS Projects\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.csproj.CoreCompileInputs.cache
+\\tsclient\S\,\CS Projects\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.AssemblyInfoInputs.cache
+\\tsclient\S\,\CS Projects\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.AssemblyInfo.cs
+\\tsclient\S\,\CS Projects\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.dll
+\\tsclient\S\,\CS Projects\MatrixMaths\obj\Debug\netcoreapp2.1\MatrixMaths.pdb
