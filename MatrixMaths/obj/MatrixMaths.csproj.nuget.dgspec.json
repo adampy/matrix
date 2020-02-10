@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adam\\Desktop\\MatrixMaths\\MatrixMaths.csproj": {}
+    "\\\\tsclient\\S\\,\\CS Projects\\MatrixMaths\\MatrixMaths.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adam\\Desktop\\MatrixMaths\\MatrixMaths.csproj": {
+    "\\\\tsclient\\S\\,\\CS Projects\\MatrixMaths\\MatrixMaths.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adam\\Desktop\\MatrixMaths\\MatrixMaths.csproj",
+        "projectUniqueName": "\\\\tsclient\\S\\,\\CS Projects\\MatrixMaths\\MatrixMaths.csproj",
         "projectName": "MatrixMaths",
-        "projectPath": "C:\\Users\\Adam\\Desktop\\MatrixMaths\\MatrixMaths.csproj",
-        "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adam\\Desktop\\MatrixMaths\\obj\\",
+        "projectPath": "\\\\tsclient\\S\\,\\CS Projects\\MatrixMaths\\MatrixMaths.csproj",
+        "packagesPath": "C:\\Users\\VSStudent12\\.nuget\\packages\\",
+        "outputPath": "\\\\tsclient\\S\\,\\CS Projects\\MatrixMaths\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\VSStudent12\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,23 +42,16 @@
         "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
